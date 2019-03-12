@@ -1,0 +1,33 @@
+body {
+	background-color: #e9e9e9;
+}
+	
+#reset {
+	border: solid 1px gray;
+	background-color: #060024;
+	color: lightgray;
+	margin-top: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+	
+td {				
+	text-align: center;				
+	font-family: 'Quicksand', sans-serif;
+	color: gray;
+	vertical-align: middle;				
+}
+
+#box td {
+	border: dotted 1px gray;
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Quicksand', sans-serif;
+	color: gray;
+	width: 55px;
+	height: 55px;
+}
+
+#box td:hover {
+	color: #01b1af;
+	cursor: grab;
+}
